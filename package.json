@@ -1,0 +1,24 @@
+{
+  "name": "nextjs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "tiagospem",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^9.1.1",
+    "next-routes": "^1.4.2",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "styled-components": "^4.4.0"
+  },
+  "scripts": {
+    "dev": "node server.js",
+    "dev2": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "devDependencies": {
+    "babel-plugin-root-import": "^6.4.1",
+    "babel-plugin-styled-components": "^1.10.6"
+  }
+}
